@@ -4,6 +4,8 @@
   "description": "AI Powered Company Website",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/varunpm-ai-ai/AI_Powered_Company_Website/issues"
   },
-  "homepage": "https://github.com/varunpm-ai-ai/AI_Powered_Company_Website#readme"
+  "homepage": "https://github.com/varunpm-ai-ai/AI_Powered_Company_Website#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "nodemon": "^3.1.10"
+  }
 }
