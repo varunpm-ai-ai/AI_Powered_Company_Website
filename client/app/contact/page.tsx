@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import Contact from "@/public/contanct.png";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import TextareaAutosize from "react-textarea-autosize";
