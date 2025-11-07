@@ -1,18 +1,6 @@
-// app/page.jsx or src/pages/index.jsx
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-
-/**
- * Landing page UI (Tailwind) for Mastersolis Infotech
- * Features:
- * - Header / Navbar
- * - Hero with neural-pattern background
- * - Services grid with AI-generated descriptions and "Refine" flow
- * - Floating AI Assistant (chat window)
- *
- * Note: This is a client-side component. Replace icons/images with your assets as needed.
- */
 
 const SERVICES_INITIAL = [
   {
@@ -57,7 +45,6 @@ export default function LandingPage() {
   ]);
   const inputRef = useRef(null);
 
-  // Simple simulated AI refine function (replace this with real API)
   function refineDescription(serviceId, keywords) {
     const svc = services.find((s) => s.id === serviceId);
     const k = (keywords || "").trim();
@@ -72,7 +59,6 @@ export default function LandingPage() {
     setKeyword("");
   }
 
-  // Chat assistant (simulated) - simple flows + quick replies
   function sendUserMessage(text) {
     if (!text) return;
     setChatMessages((m) => [...m, { who: "user", text }]);
@@ -210,7 +196,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4">
 
           {services.map((s) => (
             <article
