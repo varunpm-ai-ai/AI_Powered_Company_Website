@@ -22,11 +22,11 @@ export default function HomePage() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#072b57] to-[#08294f] text-white antialiased">
+    <main className="min-h-screen bg-linear-to-b from-[#072b57] to-[#08294f] text-white antialiased">
       {/* NAV */}
       <header className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#0f4473] to-[#1b73b8] flex items-center justify-center font-bold text-lg">
+          <div className="w-12 h-12 rounded-full bg-linear-to-br from-[#0f4473] to-[#1b73b8] flex items-center justify-center font-bold text-lg">
             MS
           </div>
           <div>
@@ -83,7 +83,7 @@ export default function HomePage() {
             quality={90}
             style={{ objectFit: "cover", objectPosition: "center" }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#072b57]/60 via-transparent to-[#072b57]/30 pointer-events-none" />
+          <div className="absolute inset-0 bg-linear-to-r from-[#072b57]/60 via-transparent to-[#072b57]/30 pointer-events-none" />
         </div>
       </section>
 
@@ -155,7 +155,7 @@ export default function HomePage() {
               quality={90}
               style={{ objectFit: "cover" }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#072b57]/40 to-transparent" />
+            <div className="absolute inset-0 bg-lineart-to-t from-[#072b57]/40 to-transparent" />
           </div>
         </div>
       </section>

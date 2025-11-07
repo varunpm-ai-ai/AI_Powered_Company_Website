@@ -43,6 +43,16 @@ const items = [
     url: "/admin",
     icon: Settings,
   },
+  {
+    title: "Testimonials",
+    url: "/testimonials",
+    icon: Settings,
+  },
+  {
+    title: "Resume",
+    url: "/resume",
+    icon: Settings,
+  },
 ]
 
 export function AppSidebar() {
