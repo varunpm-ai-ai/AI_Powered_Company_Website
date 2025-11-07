@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "AI Powered Company Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunpm-ai-ai/AI_Powered_Company_Website.git"
+  },
+  "author": "Varun P M , Partha , Akhilesh, Varun D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varunpm-ai-ai/AI_Powered_Company_Website/issues"
+  },
+  "homepage": "https://github.com/varunpm-ai-ai/AI_Powered_Company_Website#readme"
+}
