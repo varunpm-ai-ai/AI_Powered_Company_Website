@@ -44,6 +44,16 @@ const items = [
     icon: Settings,
   },
   {
+    title: "Carrer Page",
+    url: "/carrer",
+    icon: Settings,
+  },
+  {
+    title: "Blogs/News",
+    url: "/blog",
+    icon: Settings,
+  },
+  {
     title: "Testimonials",
     url: "/testimonials",
     icon: Settings,
