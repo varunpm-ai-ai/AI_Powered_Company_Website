@@ -46,11 +46,11 @@ export default function BlogPage() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#081b3a] to-[#031226] text-white">
+    <main className="min-h-screen bg-linear-to-b from-[#081b3a] to-[#031226] text-white">
       {/* HEADER */}
       <header className="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-[#0f4473] to-[#1b73b8] flex items-center justify-center rounded-full font-bold text-lg">
+          <div className="w-12 h-12 bg-linear-to-br from-[#0f4473] to-[#1b73b8] flex items-center justify-center rounded-full font-bold text-lg">
             MS
           </div>
           <div>

@@ -104,12 +104,12 @@ export default function LandingPage() {
   }, [chatOpen]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#071d3a] via-[#082b50] to-[#051a36] text-slate-100">
+    <div className="min-h-screen bg-linear-to-b from-[#071d3a] via-[#082b50] to-[#051a36] text-slate-100">
       {/* Header / Navbar */}
       <header className="sticky top-0 backdrop-blur-sm bg-slate-900/30 z-30">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-full bg-gradient-to-br from-[#0f4473] to-[#1b73b8] flex items-center justify-center font-bold">MS</div>
+            <div className="w-11 h-11 rounded-full bg-linear-to-br from-[#0f4473] to-[#1b73b8] flex items-center justify-center font-bold">MS</div>
             <div>
               <div className="font-extrabold text-white">Mastersolis</div>
               <div className="text-xs text-slate-300 -mt-0.5">Infotech</div>
@@ -179,7 +179,7 @@ export default function LandingPage() {
           </div>
 
           {/* visual / subtle graphic */}
-          <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-xl bg-gradient-to-br from-[#0b2d50]/40 to-transparent border border-white/5 flex items-center justify-center">
+          <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-xl bg-linear-to-br from-[#0b2d50]/40 to-transparent border border-white/5 flex items-center justify-center">
             {/* place a stylized neural/ai illustration (SVG placeholder) */}
             <svg className="w-56 h-56 opacity-80" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
               <defs>
@@ -219,7 +219,7 @@ export default function LandingPage() {
             >
               <div>
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 rounded-md bg-gradient-to-br from-[#0f4473] to-[#1b73b8] flex items-center justify-center text-xl">
+                  <div className="w-12 h-12 rounded-md bg-linear-to-br from-[#0f4473] to-[#1b73b8] flex items-center justify-center text-xl">
                     <span aria-hidden>{s.icon}</span>
                   </div>
                   <div>
@@ -299,7 +299,7 @@ export default function LandingPage() {
         {/* floating trigger */}
         <button
           onClick={() => setChatOpen((v) => !v)}
-          className="mb-3 flex items-center gap-2 bg-gradient-to-br from-[#0f4473] to-[#1b73b8] px-4 py-3 rounded-full shadow-lg hover:scale-105 transition"
+          className="mb-3 flex items-center gap-2 bg-linear-to-br from-[#0f4473] to-[#1b73b8] px-4 py-3 rounded-full shadow-lg hover:scale-105 transition"
           aria-label="Open AI Assistant"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" aria-hidden>
@@ -316,7 +316,7 @@ export default function LandingPage() {
           role="dialog"
           aria-hidden={!chatOpen}
         >
-          <div className="px-4 py-3 bg-gradient-to-r from-[#0b2d50] to-[#0b3f66] flex items-center justify-between">
+          <div className="px-4 py-3 bg-linear-to-r from-[#0b2d50] to-[#0b3f66] flex items-center justify-between">
             <div className="text-sm font-semibold">Hi there! I'm your AI Service Assistant.</div>
             <div className="flex items-center gap-2">
               <button className="text-xs text-slate-200/90" onClick={() => {

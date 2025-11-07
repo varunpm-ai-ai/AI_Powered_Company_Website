@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#072b57] via-[#0b3268] to-[#0a2955] text-white">
+    <main className="min-h-screen bg-linear-to-b from-[#072b57] via-[#0b3268] to-[#0a2955] text-white">
       {/* Header */}
       <header className="max-w-7xl mx-auto flex justify-between items-center px-6 py-6">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-[#0f4473] to-[#1b73b8] font-bold">
+          <div className="w-12 h-12 flex items-center justify-center rounded-full bg-linear-to-br from-[#0f4473] to-[#1b73b8] font-bold">
             MS
           </div>
           <div>
@@ -59,7 +59,7 @@ export default function AboutPage() {
             fill
             className="object-cover opacity-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#072b57]/60 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-br from-[#072b57]/60 to-transparent" />
         </div>
       </section>
 
@@ -73,7 +73,7 @@ export default function AboutPage() {
               fill
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#072b57]/70 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-br from-[#072b57]/70 to-transparent" />
           </div>
 
           <div className="space-y-4">
@@ -120,7 +120,7 @@ export default function AboutPage() {
             fill
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#072b57]/60 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-br from-[#072b57]/60 to-transparent" />
         </div>
       </section>
 
